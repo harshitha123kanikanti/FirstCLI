@@ -18,8 +18,6 @@ else{
   console.log("--------------")
   }
 }
-
-
 var questionOne = {
   question:"where do harshitha live ? ",
   answer:"Vijayawada",
@@ -51,4 +49,5 @@ for(i=0; i<questionList.length; i++) {
 }
 
 console.log(chalk.cyan("Your Score is: " + score))
+console.log(chalk.magentaBright("Thanks for playing the quiz"))
 
